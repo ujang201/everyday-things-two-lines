@@ -1,0 +1,7 @@
+Write a program (main.ts, run with `node main.ts`) that writes exactly two lines of plain text to /output/entry.txt, 1–400 characters total, deterministic on every run.
+
+Line 1 must explain ONE everyday thing — a traffic jam — to a 10-year-old in a single vivid sentence built on ONE concrete, surprising analogy the child can picture: a river of cars that forgot how to flow, with the whole stream waiting on the car in front. No list of comparisons, no second metaphor crowding the sentence.
+
+Line 2 must be one sentence saying why that analogy works: name what it maps (how one slow car holds back everyone behind it) and what it leaves out (the honking, the lane-changing, and drivers getting cross). Be honest and specific; do not praise the analogy and do not repeat line 1. Use language a 10-year-old follows without being talked down to.
+
+The program must self-check the gate before writing: total 1–400 characters, not only white space, exactly two lines, each line exactly one sentence. It must create the output directory if needed and write the file as UTF-8.
